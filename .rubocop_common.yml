@@ -21,10 +21,6 @@ Style/GlobalVars:
 Style/ClassVars:
   Enabled: true
 
-Style/Encoding:
-  Enabled: true
-  EnforcedStyle: never
-
 Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
 
