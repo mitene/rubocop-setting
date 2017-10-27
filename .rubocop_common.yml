@@ -8,10 +8,6 @@ AllCops:
 Rails:
   Enabled: true
 
-# Rails5になるまでfalse
-Rails/ApplicationRecord:
-  Enabled: false
-
 Style/AndOr:
   Enabled: true
 
@@ -94,10 +90,6 @@ Metrics/MethodLength:
 
 Metrics/AbcSize:
   Max: 20
-
-Metrics/BlockLength:
-  Exclude:
-    - 'spec/**/*'
 
 Performance/RedundantBlockCall:
   Enabled: false
