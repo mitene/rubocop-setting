@@ -43,16 +43,16 @@ Style/SingleLineBlockParams:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Layout/EmptyLinesAroundClassBody:
+Style/EmptyLinesAroundClassBody:
   Enabled: false
 
-Layout/EmptyLinesAroundModuleBody:
+Style/EmptyLinesAroundModuleBody:
   Enabled: false
 
-Layout/EmptyLinesAroundBlockBody:
+Style/EmptyLinesAroundBlockBody:
   Enabled: false
 
-Layout/EmptyLinesAroundMethodBody:
+Style/EmptyLinesAroundMethodBody:
   Enabled: true
 
 Style/EmptyCaseCondition:
@@ -80,10 +80,10 @@ Style/FrozenStringLiteralComment:
 Style/MutableConstant:
   Enabled: false
 
-Layout/MultilineOperationIndentation:
+Style/MultilineOperationIndentation:
   EnforcedStyle: indented
 
-Layout/MultilineMethodCallIndentation:
+Style/MultilineMethodCallIndentation:
   Enabled: false
 
 Metrics/LineLength:
