@@ -98,5 +98,8 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
 
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
 Performance/RedundantBlockCall:
   Enabled: false
