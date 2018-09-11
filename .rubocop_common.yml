@@ -22,13 +22,13 @@ Style/ClassVars:
   Enabled: true
 
 Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: comma
+  EnforcedStyleForMultiline: consistent_comma
 
 Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: comma
+  EnforcedStyleForMultiline: consistent_comma
 
 Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma
+  EnforcedStyleForMultiline: consistent_comma
 
 Style/AsciiComments:
   Enabled: false
