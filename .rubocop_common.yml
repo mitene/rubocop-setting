@@ -12,6 +12,9 @@ Rails:
 Rails/ApplicationRecord:
   Enabled: false
 
+Rails/Delegate:
+  EnforceForPrefixed: false
+
 Style/AndOr:
   Enabled: true
 
