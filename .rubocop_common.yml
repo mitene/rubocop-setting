@@ -82,6 +82,10 @@ Style/FrozenStringLiteralComment:
 Style/MutableConstant:
   Enabled: false
 
+Style/RescueModifier:
+  Exclude:
+    - 'spec/**/*'
+
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
