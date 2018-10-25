@@ -106,3 +106,10 @@ Naming/HeredocDelimiterNaming:
 
 Performance/RedundantBlockCall:
   Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - staging
+    - development
+    - test
