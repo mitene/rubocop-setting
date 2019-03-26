@@ -116,4 +116,5 @@ Rails/UnknownEnv:
     - production
     - staging
     - development
+    - dev
     - test
