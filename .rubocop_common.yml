@@ -117,4 +117,5 @@ Rails/UnknownEnv:
     - staging
     - development
     - dev
+    - sandbox
     - test
