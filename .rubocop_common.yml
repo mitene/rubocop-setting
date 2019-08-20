@@ -5,96 +5,23 @@ AllCops:
     - 'deploy/**/*'
     - 'vendor/**/*'
 
-Rails:
-  Enabled: true
-
-Rails/ApplicationRecord:
-  Enabled: true
-
-Rails/Delegate:
-  EnforceForPrefixed: false
-
-Style/AndOr:
-  Enabled: true
-
-Style/GlobalVars:
-  Enabled: true
-
-Style/ClassVars:
-  Enabled: true
-
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/AsciiComments:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
-Style/SingleLineBlockParams:
-  Enabled: false
-
-Style/ClassAndModuleChildren:
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Layout/EmptyLinesAroundModuleBody:
-  Enabled: false
-
-Layout/EmptyLinesAroundBlockBody:
-  Enabled: false
-
 Layout/EmptyLinesAroundMethodBody:
   Enabled: true
 
-Style/EmptyCaseCondition:
+Layout/EmptyLinesAroundModuleBody:
   Enabled: false
-
-Style/DoubleNegation:
-  Enabled: false
-
-Style/NumericLiterals:
-  Enabled: false
-
-Style/SignalException:
-  EnforcedStyle: only_raise
-
-Style/EachWithObject:
-  Enabled: false
-
-Style/ClassCheck:
-  EnforcedStyle: kind_of?
-  Enabled: true
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/MutableConstant:
-  Enabled: false
-
-Layout/MultilineOperationIndentation:
-  EnforcedStyle: indented
 
 Layout/MultilineMethodCallIndentation:
   Enabled: false
 
-Style/YodaCondition:
-  EnforcedStyle: forbid_for_equality_operators_only
-
-Metrics/LineLength:
-  Enabled: false
-
-Metrics/MethodLength:
-  Max: 25
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
 
 Metrics/AbcSize:
   Max: 20
@@ -104,11 +31,26 @@ Metrics/BlockLength:
     - 'spec/**/*'
     - 'app/admin/*'
 
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
+
 Naming/HeredocDelimiterNaming:
   Enabled: false
 
 Performance/RedundantBlockCall:
   Enabled: false
+
+Rails:
+  Enabled: true
+
+Rails/ApplicationRecord:
+  Enabled: true
+
+Rails/Delegate:
+  EnforceForPrefixed: false
 
 Rails/UnknownEnv:
   Environments:
@@ -118,3 +60,61 @@ Rails/UnknownEnv:
     - dev
     - sandbox
     - test
+
+Style/AndOr:
+  Enabled: true
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ClassCheck:
+  EnforcedStyle: kind_of?
+  Enabled: true
+
+Style/ClassVars:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/YodaCondition:
+  EnforcedStyle: forbid_for_equality_operators_only
