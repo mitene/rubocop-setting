@@ -8,9 +8,8 @@ AllCops:
 Rails:
   Enabled: true
 
-# Rails5になるまでfalse
 Rails/ApplicationRecord:
-  Enabled: false
+  Enabled: true
 
 Rails/Delegate:
   EnforceForPrefixed: false
