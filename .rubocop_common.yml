@@ -107,6 +107,14 @@ Style/SignalException:
 Style/SingleLineBlockParams:
   Enabled: false
 
+Style/SymbolArray:
+  EnforcedStyle: percent
+  MinSize: 10
+
+Style/WordArray:
+  EnforcedStyle: percent
+  MinSize: 10
+
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: consistent_comma
 
