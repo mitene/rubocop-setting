@@ -32,7 +32,7 @@ Metrics/BlockLength:
     - 'app/admin/*'
 
 Metrics/LineLength:
-  Enabled: false
+  Max: 120
 
 Metrics/MethodLength:
   Max: 25
