@@ -33,6 +33,8 @@ Metrics/BlockLength:
 
 Metrics/LineLength:
   Max: 130
+  Exclude:
+    - 'spec/**/*'
 
 Metrics/MethodLength:
   Max: 25
