@@ -33,6 +33,8 @@ Metrics/BlockLength:
 
 Metrics/LineLength:
   Max: 130
+  Exclude:
+    - 'spec/**/*'
 
 Metrics/MethodLength:
   Max: 25
@@ -128,4 +130,7 @@ Style/YodaCondition:
   EnforcedStyle: forbid_for_equality_operators_only
 
 Style/NumericPredicate:
+  Enabled: false
+
+Style/IfUnlessModifier:
   Enabled: false
