@@ -32,9 +32,7 @@ Metrics/BlockLength:
     - 'app/admin/*'
 
 Metrics/LineLength:
-  Max: 130
-  Exclude:
-    - 'spec/**/*'
+  Enabled: false
 
 Metrics/MethodLength:
   Max: 25
