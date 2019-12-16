@@ -58,6 +58,7 @@ Rails/UnknownEnv:
   Environments:
     - production
     - staging
+    - stg
     - development
     - dev
     - sandbox
