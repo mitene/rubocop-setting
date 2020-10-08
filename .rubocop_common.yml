@@ -57,6 +57,9 @@ Rails/ApplicationRecord:
 Rails/Delegate:
   EnforceForPrefixed: false
 
+Rails/TimeZone:
+  EnforcedStyle: strict
+
 Rails/UnknownEnv:
   Environments:
     - production
