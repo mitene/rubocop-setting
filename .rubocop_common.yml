@@ -28,19 +28,23 @@ Lint/AmbiguousBlockAssociation:
     - 'spec/**/*'
 
 Metrics/AbcSize:
-  Max: 20
+  Max: 30
 
 Metrics/BlockLength:
-  Exclude:
-    - 'spec/**/*'
-    - 'app/admin/*'
-    - 'app/api/**/*'
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
 
 Metrics/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
   Max: 25
+
+Metrics/ParameterLists:
+  Exclude:
+    - 'lib/**/*'
 
 Naming/HeredocDelimiterNaming:
   Enabled: false
