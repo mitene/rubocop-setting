@@ -4,6 +4,7 @@ AllCops:
     - 'db/**/*'
     - 'deploy/**/*'
     - 'vendor/**/*'
+    - 'docker/**/*'
 
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
